@@ -1,0 +1,89 @@
+li{
+
+  
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 50px;}
+  }
+  .image1{
+    height: 51vh;
+    width:30vw;
+  }
+  .container{
+    margin-top: 60px;
+    background-color:rgba(227,154,130,0.733);
+    border:3px solid rgb(231, 124, 142)
+  }
+  h1{
+    text-align: center;
+  }
+  .head{
+    color: rgb(212, 43, 71);
+  }
+  #head{
+    color: rgb(212, 43, 71);
+  }
+  
+  
+  .section-text{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-bold);
+    word-spacing: 0.04em;
+  }
+  /* .title{
+    font-weight: bolder;
+  } */
+  .marquee :nth-child(odd){
+    background-color: black;
+  }
+  .marquee :nth-child(even){
+    background-color: rgba(226, 78, 28, 0.733);
+    
+  }
+  .marquee{
+    animation: marquee 5s linear infinite;
+    display: inline-flex;
+    
+  }
+  @keyframes marquee{
+    from{transform: translateX(0);}
+    to{transform: translateX(-5%);}
+  }
+  .marquee img{
+    height: 200px !important;
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .fill{
+  overflow: hidden;
+  width:100vw;
+  }
+  .animate{
+    background-color:rgba(227,154,130,0.733);
+    border:3px solid rgb(231, 124, 142)
+    
+  }
+  .h2{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: rgb(212, 43, 71);
+  }
+  .para{
+    margin-left: 65px;
+  }
+  .blog{
+    color: rgb(212, 43, 71);
+    text-align: center;
+  }
